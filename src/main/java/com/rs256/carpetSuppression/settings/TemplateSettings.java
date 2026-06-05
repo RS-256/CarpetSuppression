@@ -1,4 +1,4 @@
-package carpet.extension.settings;
+package com.rs256.carpetSuppression.settings;
 
 import carpet.api.settings.CarpetRule;
 import carpet.api.settings.Rule;

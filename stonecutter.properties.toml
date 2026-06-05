@@ -1,8 +1,8 @@
 # Mod metadata — shared across all versions
-mod.id      = "template"
-mod.name    = "Template"
-mod.version = "0.1.0"
-mod.group   = "com.example"
+mod.id      = "carpet-suppression"
+mod.name    = "CarpetSuppression"
+mod.version = "0.0.0"
+mod.group   = "com.rs256.carpetSuppression"
 
 # deps. is used dependency resolving,
 # build. is used build jar resource prosessing

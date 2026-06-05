@@ -1,6 +1,6 @@
-package carpet.extension.mixins;
+package com.rs256.carpetSuppression.mixins;
 
-import carpet.extension.TemplateExtension;
+import com.rs256.carpetSuppression.TemplateExtension;
 import net.minecraft.CrashReport;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "carpet.extension.mixins",
+  "package": "com.rs256.carpetSuppression.mixins",
   "compatibilityLevel": "${java}",
   "mixins": [
     "CrashReport_noopMixin"

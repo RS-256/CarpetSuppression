@@ -1,6 +1,6 @@
-package carpet.extension.command;
+package com.rs256.carpetSuppression.command;
 
-import carpet.extension.settings.TemplateSettings;
+import com.rs256.carpetSuppression.settings.TemplateSettings;
 import carpet.utils.Messenger;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
