@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "carpet.extension.mixins",
+  "compatibilityLevel": "${java}",
+  "mixins": [
+    "CrashReport_noopMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

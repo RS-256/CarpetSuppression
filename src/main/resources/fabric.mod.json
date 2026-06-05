@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+
+  "name": "${name}",
+  "description": "A template Carpet extension mod.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "sources": "https://github.com/RS-256/fabric-carpet-extension-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/template/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+
+  "accessWidener": "${accesswidener}",
+  "depends": {
+    "minecraft": "${minecraft}",
+    "fabricloader": "${fabricLoader}",
+    "${fabricApiKey}": "${fabricAPI}",
+    "carpet": "${carpet}"
+  }
+}
