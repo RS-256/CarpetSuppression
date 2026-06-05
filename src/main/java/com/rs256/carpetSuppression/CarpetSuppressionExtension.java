@@ -1,10 +1,10 @@
-package carpet.extension;
+package com.rs256.carpetSuppression;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
 import carpet.api.settings.SettingsManager;
-import carpet.extension.command.TemplateCommand;
-import carpet.extension.settings.TemplateSettings;
+import com.rs256.carpetSuppression.settings.CarpetSuppressionSettings;
+import com.rs256.carpetSuppression.command.TemplateCommand;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.commands.CommandSourceStack;
@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
-public class TemplateExtension implements CarpetExtension
+public class CarpetSuppressionExtension implements CarpetExtension
 {
     public static final String MOD_ID = "template";
     public static final String MOD_NAME = "TemplateMod";
@@ -25,7 +25,7 @@ public class TemplateExtension implements CarpetExtension
 
     static
     {
-        CarpetServer.manageExtension(new TemplateExtension());
+        CarpetServer.manageExtension(new CarpetSuppressionExtension());
     }
 
     public static void noop() { }
@@ -44,8 +44,8 @@ public class TemplateExtension implements CarpetExtension
     public void onGameStarted()
     {
         LOGGER.info("Registering {} Carpet extension", MOD_NAME);
-        CarpetServer.settingsManager.parseSettingsClass(TemplateSettings.Carpet.class);
-        SETTINGS_MANAGER.parseSettingsClass(TemplateSettings.Own.class);
+        CarpetServer.settingsManager.parseSettingsClass(CarpetSuppressionSettings.Carpet.class);
+        SETTINGS_MANAGER.parseSettingsClass(CarpetSuppressionSettings.Own.class);
     }
 
     @Override

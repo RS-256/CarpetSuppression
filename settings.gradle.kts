@@ -22,4 +22,4 @@ stonecutter {
     }
 }
 
-rootProject.name = "carpet-template"
+rootProject.name = "carpet-suppression"

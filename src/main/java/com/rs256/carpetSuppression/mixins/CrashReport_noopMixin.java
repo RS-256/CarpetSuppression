@@ -1,6 +1,6 @@
-package carpet.extension.mixins;
+package com.rs256.carpetSuppression.mixins;
 
-import carpet.extension.TemplateExtension;
+import com.rs256.carpetSuppression.CarpetSuppressionExtension;
 import net.minecraft.CrashReport;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -17,6 +17,6 @@ public class CrashReport_noopMixin
     @Inject(method = "preload", at = @At("HEAD"))
     private static void gameStarted(CallbackInfo ci)
     {
-        TemplateExtension.noop();
+        CarpetSuppressionExtension.noop();
     }
 }

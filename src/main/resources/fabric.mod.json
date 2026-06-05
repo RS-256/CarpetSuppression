@@ -9,11 +9,11 @@
     "Me!"
   ],
   "contact": {
-    "sources": "https://github.com/RS-256/fabric-carpet-extension-example-mod"
+    "sources": "https://github.com/RS-256/CarpetSuppression"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/carpetSuppression/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -21,7 +21,7 @@
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "carpetSuppression.mixins.json"
   ],
 
   "accessWidener": "${accesswidener}",

@@ -1,4 +1,4 @@
-package carpet.extension.settings;
+package com.rs256.carpetSuppression.settings;
 
 import carpet.api.settings.CarpetRule;
 import carpet.api.settings.Rule;
@@ -9,7 +9,7 @@ import net.minecraft.commands.CommandSourceStack;
 
 import static carpet.api.settings.RuleCategory.CREATIVE;
 
-public class TemplateSettings
+public class CarpetSuppressionSettings
 {
     public static class Carpet
     {
